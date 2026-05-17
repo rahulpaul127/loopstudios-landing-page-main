@@ -25,7 +25,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/loopstudios-landing-page-gk78iWF5hs)
 - Live Site URL: [GitHub Pages](https://rahulpaul127.github.io/loopstudios-landing-page-main/)
 
 ---
