@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Loopstudios – The leader in interactive VR. Founded in 2011, producing world-class virtual reality projects for the best companies around the globe.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ===== MOBILE NAVIGATION OVERLAY ===== -->
+  <nav class="mobile-nav" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <div class="mobile-nav__top">
+      <a href="#" class="mobile-nav__logo">
+        <img src="./images/logo.svg" alt="Loopstudios">
+      </a>
+      <button class="mobile-nav__close" id="close-btn" aria-label="Close navigation menu">
+        <img src="./images/icon-close.svg" alt="Close menu">
+      </button>
+    </div>
+    <ul class="mobile-nav__links">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+
+    <!-- Desktop Nav -->
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#" class="nav__logo">
+        <img src="./images/logo.svg" alt="Loopstudios">
+      </a>
+      <ul class="nav__menu" role="list">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+        <img src="./images/icon-hamburger.svg" alt="Open menu">
+      </button>
+    </nav>
+
+    <!-- Hero Title -->
+    <div class="hero__content">
+      <h1 class="hero__title">Immersive<br>Experiences<br>That Deliver</h1>
+    </div>
+
+  </header>
+
+  <main>
+
+    <!-- ===== INTERACTIVE SECTION ===== -->
+    <section class="interactive" aria-labelledby="interactive-heading">
+      <div class="interactive__inner">
+        <div class="interactive__image">
+          <img
+            src="./images/desktop/image-interactive.jpg"
+            alt="Person wearing a VR headset, experiencing immersive virtual reality"
+          >
+        </div>
+        <div class="interactive__text">
+          <h2 class="interactive__title" id="interactive-heading">The leader in<br>interactive VR</h2>
+          <p class="interactive__body">
+            Founded in 2011, Loopstudios has been producing world-class
+            virtual reality projects for some of the best companies around the
+            globe. Our award-winning creations have transformed businesses
+            through digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CREATIONS SECTION ===== -->
+    <section class="creations" aria-labelledby="creations-heading">
+
+      <div class="creations__header">
+        <h2 class="creations__title" id="creations-heading">Our Creations</h2>
+        <button class="creations__btn" aria-label="See all creations">See All</button>
+      </div>
+
+      <ul class="creations__grid" role="list">
+
+        <li class="creation-card" tabindex="0">
+          <picture>
+            <source srcset="./images/mobile/image-deep-earth.jpg" media="(max-width: 768px)">
+            <img src="./images/desktop/image-deep-earth.jpg" alt="Deep Earth">
+          </picture>
+          <h3 class="creation-card__title">Deep<br>Earth</h3>
+        </li>
+
+        <li class="creation-card" tabindex="0">
+          <picture>
+            <source srcset="./images/mobile/image-night-arcade.jpg" media="(max-width: 768px)">
+            <img src="./images/desktop/image-night-arcade.jpg" alt="Night Arcade">
+          </picture>
+          <h3 class="creation-card__title">Night<br>Arcade</h3>
+        </li>
+
+        <li class="creation-card" tabindex="0">
+          <picture>
+            <source srcset="./images/mobile/image-soccer-team.jpg" media="(max-width: 768px)">
+            <img src="./images/desktop/image-soccer-team.jpg" alt="Soccer Team VR">
+          </picture>
+          <h3 class="creation-card__title">Soccer<br>Team VR</h3>
+        </li>
+
+        <li class="creation-card" tabindex="0">
+          <picture>
+            <source srcset="./images/mobile/image-grid.jpg" media="(max-width: 768px)">
+            <img src="./images/desktop/image-grid.jpg" alt="The Grid">
+          </picture>
+          <h3 class="creation-card__title">The<br>Grid</h3>
+        </li>
+
+        <li class="creation-card" tabindex="0">
+          <picture>
+            <source srcset="./images/mobile/image-from-above.jpg" media="(max-width: 768px)">
+            <img src="./images/desktop/image-from-above.jpg" alt="From Up Above VR">
+          </picture>
+          <h3 class="creation-card__title">From Up<br>Above VR</h3>
+        </li>
+
+        <li class="creation-card" tabindex="0">
+          <picture>
+            <source srcset="./images/mobile/image-pocket-borealis.jpg" media="(max-width: 768px)">
+            <img src="./images/desktop/image-pocket-borealis.jpg" alt="Pocket Borealis">
+          </picture>
+          <h3 class="creation-card__title">Pocket<br>Borealis</h3>
+        </li>
+
+        <li class="creation-card" tabindex="0">
+          <picture>
+            <source srcset="./images/mobile/image-curiosity.jpg" media="(max-width: 768px)">
+            <img src="./images/desktop/image-curiosity.jpg" alt="The Curiosity">
+          </picture>
+          <h3 class="creation-card__title">The<br>Curiosity</h3>
+        </li>
+
+        <li class="creation-card" tabindex="0">
+          <picture>
+            <source srcset="./images/mobile/image-fisheye.jpg" media="(max-width: 768px)">
+            <img src="./images/desktop/image-fisheye.jpg" alt="Make it Fisheye">
+          </picture>
+          <h3 class="creation-card__title">Make it<br>Fisheye</h3>
+        </li>
+
+      </ul>
+
+      <!-- Mobile-only See All button (below the grid) -->
+      <div style="display:flex;justify-content:center;">
+        <button class="creations__btn-mobile" aria-label="See all creations">See All</button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+
+      <div class="footer__left">
+        <a href="#" class="footer__logo">
+          <img src="./images/logo.svg" alt="Loopstudios">
+        </a>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="#">Events</a>
+          <a href="#">Products</a>
+          <a href="#">Support</a>
+        </nav>
+      </div>
+
+      <div class="footer__right">
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">
+            <img src="./images/icon-facebook.svg" alt="Facebook">
+          </a>
+          <a href="#" aria-label="Twitter">
+            <img src="./images/icon-twitter.svg" alt="Twitter">
+          </a>
+          <a href="#" aria-label="Pinterest">
+            <img src="./images/icon-pinterest.svg" alt="Pinterest">
+          </a>
+          <a href="#" aria-label="Instagram">
+            <img src="./images/icon-instagram.svg" alt="Instagram">
+          </a>
+        </div>
+        <p class="footer__copyright">© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+  
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const closeBtn = document.getElementById('close-btn');
+    const mobileNav = document.getElementById('mobile-nav');
+
+    function openNav() {
+      mobileNav.classList.add('is-open');
+      hamburgerBtn.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeNav() {
+      mobileNav.classList.remove('is-open');
+      hamburgerBtn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    hamburgerBtn.addEventListener('click', openNav);
+    closeBtn.addEventListener('click', closeNav);
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && mobileNav.classList.contains('is-open')) {
+        closeNav();
+      }
+    });
+  </script>
+
+</body>
+</html>
