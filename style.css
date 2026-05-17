@@ -178,13 +178,12 @@ h3 {
 
 .interactive {
   padding: 160px 0 180px;
-  overflow: hidden;
 }
 
 .interactive__inner {
-  max-width: 1440px;
+  max-width: 1110px;
   margin: 0 auto;
-  padding: 0 165px 0 0;
+  padding: 0 40px;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -192,7 +191,6 @@ h3 {
 
 .interactive__image {
   width: 731px;
-  min-width: 731px;
   flex-shrink: 0;
   position: relative;
   z-index: 1;
